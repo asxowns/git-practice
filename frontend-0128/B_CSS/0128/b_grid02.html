@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Css Grid2</title>
+  <link rel="stylesheet" href="./B_CSS/b_grid02.css">
+</head>
+<body>
+  <!-- 
+    그리드 컨테이너에 들어갈 수 있는 만큼의
+    열을 생성
+
+    auto-fit
+    : 가능한 한 많은 트랙(열/행)을 생성하고,
+    필요에 따라 그리드 컨테이너 내에서 동적으로
+    트랙을 맞춤
+    >> 빈 트랙을 없애고, 남은 트랙을 확장
+    >> 트랙의 수가 동적으로 변화
+
+    auto-fill
+    : 가능한 많은 트랙을 생성, 각 트랙은
+    지정된 크기를 유지
+  -->
+
+
+  <div class="container">
+    <div>하나</div>
+    <div>둘</div>
+    <div>셋</div>
+    <div>넷</div>
+    <div>다섯</div>
+    <div>여섯</div>
+    <div>일곱</div>
+  </div>
+
+  <div class="grid-container">
+    <header>This is the header</header>
+    <article>
+      <h1>My article</h1>
+      <p>해당 내용은 그리드 레이아웃01 입니다.</p>
+      <p>해당 내용은 그리드 레이아웃02 입니다.</p>
+    </article>
+    <aside>
+      <h2>Other things</h2>
+      <p>부가적인 내용입니다.</p>
+    </aside>
+    <footer>Contact me@mysite.com</footer>
+  </div>
+
+</body>
+</html>

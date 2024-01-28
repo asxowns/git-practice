@@ -1,0 +1,22 @@
+body{
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.container{
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* column-gap: 10px;
+  row-gap: 20px; */
+  gap: 20px 10px;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(3, 100px);
+  grid-auto-rows: minmax(100px ,auto);
+}
+.container > div{
+  padding: 10px;
+  background-color: skyblue;
+  border:2px solid lightcoral;
+  border-radius: 5px;
+}
